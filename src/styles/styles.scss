@@ -1,0 +1,58 @@
+// @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF;
+}
+.am-search-clear{
+  display: none !important;
+}
+
+.blink {
+  animation: blink 2s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+.am-pull-to-refresh-indicator{
+  display: none !important
+}
+.am-search-synthetic-ph{
+    position: absolute;
+    left: 11px;
+}
+
+.timeline{
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  padding: 4px;
+  text-align: left;
+  .header{
+      font-size: 12px;
+      position: absolute;
+      color: #7c7C7C;
+      margin-left: 10px;
+      margin-top: 4px;
+  }
+}
+.back-icon{
+  position: absolute;
+  bottom: 25px;
+  left: 13px;
+  color: #E57180;
+  font-size: 20px;
+}
+.am-list-item .am-list-line .am-list-content{
+  font-size: 14px;
+}
+.am-accordion .am-accordion-item .am-accordion-header{
+  font-size: 14px;
+}
