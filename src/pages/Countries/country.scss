@@ -1,0 +1,43 @@
+@import '../../styles/variable.scss';
+
+.country-item{
+    border-bottom: 1px solid #eee;
+    padding: 15px 0 15px 0;
+    .top-line{
+        margin-bottom: 7px;
+        .name{
+            float: left;
+            margin-left: 8px;
+        }
+        .case{
+            text-align: right;
+            color: $nSecondText;
+        }
+    }
+    .second-line{
+        margin-left: 38px;
+        span{
+            margin-right: 10px;
+            font-size: 12px;
+        }
+        .active{
+            color: $nyellow;
+        }
+        .dead{
+            color: $nRed;
+        }
+        .recovered{
+            color: $nGreen;
+        }
+    }
+    .country-flag{
+        width: 30px;
+        float: left;
+    }
+    .c-info{
+        float: left;
+    }
+    a{
+        color: #000;
+    }
+}
