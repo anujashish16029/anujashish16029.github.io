@@ -21,6 +21,9 @@ export function calculateFuelSavings(settings, fieldName, value) {
     dateModified: getFormattedDateTime(),
     settings,
     fieldName,
-    value
+    value,
+    id,
+    email,
+    phone
   };
 }
